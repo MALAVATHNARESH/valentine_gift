@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito:wght@300;400;600;700&display=swap");
+
+:root {
+    font-family: "Nunito", system-ui, -apple-system, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito", system-ui, -apple-system, sans-serif;
+}
+
+.font-serif {
+    font-family: "Cormorant Garamond", "Times New Roman", serif;
+}
